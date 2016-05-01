@@ -1,31 +1,28 @@
 
 ## แสดง Image โดยใช้ Collection View
 
-- RootViewController
+### RootViewController
 
-![](Screen/root-view-controller.png)
+    ![](Screen/root-view-controller.png)
 
-- DetailViewController
+### DetailViewController
 
-![](Screen/detail-view-controller.png)
+    ![](Screen/detail-view-controller.png)
 
-- Tweet
+### Tweet
 
-![](Screen/tweet.png)
+    ![](Screen/tweet.png)
 
 ## สร้าง Story Board
 
-![](Screen/storyboard.png)
+    ![](Screen/storyboard.png)
 
-ประกอบด้วย
-
-- RootViewController -> RootViewController.cs
-- DetailViewController -> DetailViewController.cs
-
+1. RootViewController - RootViewController.cs
+2. DetailViewController - DetailViewController.cs
 
 ## RootViewController
 
-- `RootViewController` Extend `IUICollectionViewSource` เพิ่อให้สามารพ Render Image ใน `CollectionView` ได้
+- `RootViewController` extend `IUICollectionViewSource` เพิ่อให้สามารถเรนเดอร์รูปภาพ ใน `CollectionView` ได้
 - ต้องอิมพลีเมนต์ `GetCell` และ `GetImageCount` (ของ `IUICollectionViewSource`)
 - `ViewDidLoad` มีการเซ็ต `WeakDataSource` ของ `CollectionView` ชื่อ `ImageCollection` เป็น `this`
 - `GetCell` มีการ Assign Source ของ Image ที่ต้องการแสดงโดยดึงมาจาก Property ชื่อ `Images` ของ `BingHelper`
