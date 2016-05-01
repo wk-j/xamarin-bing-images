@@ -103,3 +103,7 @@ public partial class DetailViewController : UIViewController
     }
 }
 ```
+
+## Link
+
+- https://www.youtube.com/watch?v=1pWqkq3fPtU
