@@ -9,7 +9,10 @@ using SDWebImage;
 namespace BingImages
 {
     public partial class RootViewController : UIViewController, IUICollectionViewDataSource
-    {
+    {        
+
+		private BingHelper helper;
+
         public RootViewController(IntPtr handle)
             : base(handle)
         {
@@ -23,9 +26,6 @@ namespace BingImages
             // Release any cached data, images, etc that aren't in use.
         }
 
-        #region View lifecycle
-
-        BingHelper helper;
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
@@ -36,15 +36,13 @@ namespace BingImages
             // Perform any additional setup after loading the view, typically from a nib.
         }
 
-        #endregion
-
         async partial void ButtonQuery_TouchUpInside(UIButton sender)
         {
-
             LabelResults.ResignFirstResponder();
 
             ProgressBar.StartAnimating();
-            await helper.QueryBingImages(TextFieldSearch.Text);
+			//await helper.QueryBingImages(TextFieldSearch.Text)
+			await helper.QuerySoundClound (TextFieldSearch.Text);
             LabelResults.Text = "Search Results: " + helper.Images.Count;
 
             ImageCollection.ReloadData();
