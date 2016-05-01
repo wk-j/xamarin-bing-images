@@ -1,5 +1,4 @@
-﻿<Properties StartupItem="BingImages/BingImages.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone5s.9.1" />
+﻿<Properties StartupItem="SoundCloundImages.CS/SoundClondImages.CS.csproj">
   <MonoDevelop.Ide.Workbench ActiveDocument="BingImages/SecondViewController.cs">
     <Files>
       <File FileName="BingImages.Shared/BingHelper.cs" Line="1" Column="1" />
@@ -8,8 +7,8 @@
       <File FileName="BingImages/SecondViewController.cs" Line="31" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SoundClondImages.CS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DBED7CB4-E7C8-417B-8CE0-D58007B6454C" />
+  <MonoDevelop.Ide.ItemProperties.BingImages PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D3F001F6-72AF-4FD4-B4D9-94C3A2890CCD" />
 </Properties>

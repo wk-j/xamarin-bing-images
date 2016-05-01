@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingImages", "BingImages\Bi
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BingImages.Shared", "BingImages.Shared\BingImages.Shared.shproj", "{06783718-E470-4C2C-AE98-4D73B9323F25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundClondImages.CS", "SoundClondImages.CS\SoundClondImages.CS.csproj", "{5B1FB90D-7DE1-4709-87AB-AFD5C0A20B94}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		BingImages.Shared\BingImages.Shared.projitems*{06783718-e470-4c2c-ae98-4d73b9323f25}*SharedItemsImports = 13
@@ -39,6 +41,22 @@ Global
 		{AA6004A7-BB1F-4089-9194-28EAA2A40B99}.Release|iPhone.Build.0 = Release|iPhone
 		{AA6004A7-BB1F-4089-9194-28EAA2A40B99}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{AA6004A7-BB1F-4089-9194-28EAA2A40B99}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{5B1FB90D-7DE1-4709-87AB-AFD5C0A20B94}.Ad-Hoc|iPhone.ActiveCfg = Release|iPhone
+		{5B1FB90D-7DE1-4709-87AB-AFD5C0A20B94}.Ad-Hoc|iPhone.Build.0 = Release|iPhone
+		{5B1FB90D-7DE1-4709-87AB-AFD5C0A20B94}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|iPhone
+		{5B1FB90D-7DE1-4709-87AB-AFD5C0A20B94}.Ad-Hoc|iPhoneSimulator.Build.0 = Release|iPhone
+		{5B1FB90D-7DE1-4709-87AB-AFD5C0A20B94}.AppStore|iPhone.ActiveCfg = Release|iPhone
+		{5B1FB90D-7DE1-4709-87AB-AFD5C0A20B94}.AppStore|iPhone.Build.0 = Release|iPhone
+		{5B1FB90D-7DE1-4709-87AB-AFD5C0A20B94}.AppStore|iPhoneSimulator.ActiveCfg = Release|iPhone
+		{5B1FB90D-7DE1-4709-87AB-AFD5C0A20B94}.AppStore|iPhoneSimulator.Build.0 = Release|iPhone
+		{5B1FB90D-7DE1-4709-87AB-AFD5C0A20B94}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{5B1FB90D-7DE1-4709-87AB-AFD5C0A20B94}.Debug|iPhone.Build.0 = Debug|iPhone
+		{5B1FB90D-7DE1-4709-87AB-AFD5C0A20B94}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{5B1FB90D-7DE1-4709-87AB-AFD5C0A20B94}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{5B1FB90D-7DE1-4709-87AB-AFD5C0A20B94}.Release|iPhone.ActiveCfg = Release|iPhone
+		{5B1FB90D-7DE1-4709-87AB-AFD5C0A20B94}.Release|iPhone.Build.0 = Release|iPhone
+		{5B1FB90D-7DE1-4709-87AB-AFD5C0A20B94}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{5B1FB90D-7DE1-4709-87AB-AFD5C0A20B94}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
