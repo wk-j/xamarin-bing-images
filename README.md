@@ -3,19 +3,19 @@
 
 ### RootViewController
 
-    ![](Screen/root-view-controller.png)
+![](Screen/root-view-controller.png)
 
 ### DetailViewController
 
-    ![](Screen/detail-view-controller.png)
+![](Screen/detail-view-controller.png)
 
 ### Tweet
 
-    ![](Screen/tweet.png)
+![](Screen/tweet.png)
 
 ## สร้าง Story Board
 
-    ![](Screen/storyboard.png)
+![](Screen/storyboard.png)
 
 1. RootViewController - RootViewController.cs
 2. DetailViewController - DetailViewController.cs
