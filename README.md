@@ -1,17 +1,7 @@
 
 ## แสดง Image โดยใช้ Collection View
 
-### RootViewController
-
 ![](Screen/root-view-controller.png)
-
-### DetailViewController
-
-![](Screen/detail-view-controller.png)
-
-### Tweet
-
-![](Screen/tweet.png)
 
 ## สร้าง Story Board
 
