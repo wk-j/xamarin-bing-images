@@ -1,14 +1,26 @@
-﻿<Properties StartupItem="SoundCloundImages.CS/SoundClondImages.CS.csproj">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BingImages/SecondViewController.cs">
+﻿<Properties StartupItem="SoundCloudImages.CS/SoundCloudImages.CS.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BingImages.Shared/BingHelper.cs">
     <Files>
-      <File FileName="BingImages.Shared/BingHelper.cs" Line="1" Column="1" />
-      <File FileName="BingImages.Shared/BingResult.cs" Line="1" Column="1" />
-      <File FileName="BingImages/Info.plist" />
-      <File FileName="BingImages/SecondViewController.cs" Line="31" Column="17" />
+      <File FileName="BingImages.Shared/BingHelper.cs" Line="37" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BingImages" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>ImageCollection.ReloadData()</Value>
+          <Value>this</Value>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.SoundCloudImages.CS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DBED7CB4-E7C8-417B-8CE0-D58007B6454C" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.SoundClondImages.CS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DBED7CB4-E7C8-417B-8CE0-D58007B6454C" />
-  <MonoDevelop.Ide.ItemProperties.BingImages PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D3F001F6-72AF-4FD4-B4D9-94C3A2890CCD" />
+  <MonoDevelop.Ide.ItemProperties.BingImages PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DBED7CB4-E7C8-417B-8CE0-D58007B6454C" />
 </Properties>
