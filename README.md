@@ -106,4 +106,6 @@ public partial class DetailViewController : UIViewController
 
 ## Link
 
-- https://www.youtube.com/watch?v=1pWqkq3fPtU
+- https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Designing-iOS-apps-inside-Visual-Studio-with-Xamarin
+
+
